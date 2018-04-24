@@ -1,4 +1,5 @@
 import pyspark
+from pyspark.sql import SQLContext
 
 if __name__ == '__main__':
 	sc = pyspark.SparkContext()
